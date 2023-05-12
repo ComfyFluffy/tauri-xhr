@@ -1,7 +1,7 @@
 {
   "name": "tauri-xhr",
   "version": "0.1.0",
-  "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "ComfyFluffy",
   "description": "A custom XHR implementation that can be used to bypass CORS limit of the webview using tauri's http feature.",
