@@ -200,5 +200,5 @@ export class TauriXMLHttpRequest extends EventTarget implements XMLHttpRequest {
   }
 }
 
-export const registerGlobal = () =>
+export const overrideGlobalXHR = () =>
   (window.XMLHttpRequest = TauriXMLHttpRequest as any)
