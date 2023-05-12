@@ -4,7 +4,11 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "ComfyFluffy",
-  "description": "A Tauri plugin for making XHR requests",
+  "description": "A custom XHR implementation that can be used to bypass CORS limit of the webview using tauri's http feature.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ComfyFluffy/tauri-xhr.git"
+  },
   "keywords": [
     "tauri",
     "xhr",
