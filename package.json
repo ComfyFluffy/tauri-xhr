@@ -19,13 +19,15 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
-    "prepublish": "yarn build"
+    "build": "rimraf dist && tsc",
+    "prepublish": "yarn build",
+    "publish": "yarn build && npm publish"
   },
   "files": [
     "dist"
   ],
   "devDependencies": {
+    "rimraf": "^5.0.0",
     "typescript": "^5.0.4"
   },
   "dependencies": {
